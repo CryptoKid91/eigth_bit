@@ -1,0 +1,11 @@
+[Inputs]
+enable
+write
+clk
+=addr[3:0]=
+[Outputs]
+[BiDir]
+=bus[7:0]=
+[ATTRIBUTES]
+VeriModel RAM
+

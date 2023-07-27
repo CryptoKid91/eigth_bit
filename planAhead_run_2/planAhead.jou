@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Jan 12 22:36:10 2023
+# Process ID: 974
+# Log file: /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_run_2/planAhead.log
+# Journal file: /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T15 [get_ports {LEDS[7]}]
+set_property package_pin L16 [get_ports {LEDS[1]}]
+set_property package_pin R14 [get_ports {LEDS[6]}]
+set_property package_pin P16 [get_ports {LEDS[3]}]
+set_property package_pin L14 [get_ports {LEDS[0]}]
+set_property package_pin R16 [get_ports {LEDS[5]}]
+set_property package_pin P15 [get_ports {LEDS[2]}]
+set_property package_pin R15 [get_ports {LEDS[4]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports clk_32]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {LEDS[7]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {LEDS[6]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {LEDS[7]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {LEDS[5]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports {LEDS[4]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {LEDS[3]}]
+endgroup
+startgroup
+set_property package_pin M9 [get_ports {LEDS[2]}]
+endgroup
+startgroup
+set_property package_pin N9 [get_ports {LEDS[1]}]
+endgroup
+startgroup
+endgroup

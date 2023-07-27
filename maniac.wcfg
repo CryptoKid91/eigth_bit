@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="MANIAC_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/MANIAC_tb/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bus[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/regA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/regB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regB[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/memAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memAddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">memAddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/ram/RAM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM[15:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[15:0,7:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[15,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[14,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[13,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[12,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[11,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[10,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[9,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[8,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[7,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[6,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[5,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[4,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[3,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[2,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[1,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MANIAC_tb/uut/ram/RAM[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[0,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/hlt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hlt</obj_property>
+      <obj_property name="ObjectShortName">hlt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadAddr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadAddr</obj_property>
+      <obj_property name="ObjectShortName">loadAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/writeRAM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">writeRAM</obj_property>
+      <obj_property name="ObjectShortName">writeRAM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/enableRAM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enableRAM</obj_property>
+      <obj_property name="ObjectShortName">enableRAM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/enableIR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enableIR</obj_property>
+      <obj_property name="ObjectShortName">enableIR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadIR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadIR</obj_property>
+      <obj_property name="ObjectShortName">loadIR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadA</obj_property>
+      <obj_property name="ObjectShortName">loadA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/enableA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enableA</obj_property>
+      <obj_property name="ObjectShortName">enableA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/enableALU" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enableALU</obj_property>
+      <obj_property name="ObjectShortName">enableALU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/sub" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sub</obj_property>
+      <obj_property name="ObjectShortName">sub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadB" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadB</obj_property>
+      <obj_property name="ObjectShortName">loadB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadDR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadDR</obj_property>
+      <obj_property name="ObjectShortName">loadDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/control/co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">co</obj_property>
+      <obj_property name="ObjectShortName">co</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/jmp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jmp</obj_property>
+      <obj_property name="ObjectShortName">jmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/loadFlags" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadFlags</obj_property>
+      <obj_property name="ObjectShortName">loadFlags</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/flags" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flags[1:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/ZF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/CF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/control/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/clk10" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk10</obj_property>
+      <obj_property name="ObjectShortName">clk10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/segment" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segment[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segment[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MANIAC_tb/uut/digit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+</wave_config>

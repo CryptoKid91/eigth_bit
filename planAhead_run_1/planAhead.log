@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Jan 12 22:31:46 2023
+# Process ID: 789
+# Log file: /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_run_1/planAhead.log
+# Journal file: /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/pa.fromNcd.tcl
+# create_project -name eight_bit -dir "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_run_1" -part xc6slx25ftg256-3
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit} }
+# set_property target_constrs_file "constrains.ucf" [current_fileset -constrset]
+Adding file '/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/constrains.ucf' to fileset 'constrs_1'
+# add_files [list {constrains.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx25ftg256-3
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MANIAC.ngc ...
+WARNING:NetListWriters:298 - No output is written to MANIAC.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MANIAC.edif ...
+ngc2edif: Total memory usage is 91708 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/eight_bit.data/cache/MANIAC_ngc_ebda72d0.edif]
+Finished Parsing EDIF File [./planAhead_run_1/eight_bit.data/cache/MANIAC_ngc_ebda72d0.edif]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockBuffers.xml
+Loading package pin functions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ftg256/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/constrains.ucf]
+Finished Parsing UCF File [/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/constrains.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 6391627c
+link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2949.273 ; gain = 156.520
+# read_xdl -file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.ncd"
+Release 14.7 - xdl P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx25.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+   "MANIAC" is an NCD, version 3.2, device xc6slx25, package ftg256, speed -3
+Successfully converted design '/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.ncd' to '/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.ncd
+INFO: [Designutils 20-671] Placed 7 instances
+# if {[catch {read_twx -name results_1 -file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.twx\": $eInfo"
+# }
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/planAhead_pid789.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jan 12 22:34:30 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead

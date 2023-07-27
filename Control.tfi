@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+Control instance_name (
+    .clk(clk), 
+    .instruction(instruction), 
+    .hlt(hlt), 
+    .enableA(enableA), 
+    .loadA(loadA), 
+    .loadB(loadB), 
+    .enableALU(enableALU), 
+    .sub(sub), 
+    .enableRAM(enableRAM), 
+    .writeRAM(writeRAM), 
+    .enableAddr(enableAddr), 
+    .loadAddr(loadAddr), 
+    .jmp(jmp), 
+    .ce(ce), 
+    .co(co), 
+    .loadDR(loadDR), 
+    .enableIR(enableIR), 
+    .loadIR(loadIR)
+    );
+
+

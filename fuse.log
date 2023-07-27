@@ -1,0 +1,50 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC_tb_isim_beh.exe" -prj "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC_tb_beh.prj" "work.MANIAC_tb" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/SevenSegmentDisplayDriver.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/Register.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/RAM.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/ProgramCounter.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/ipcore_dir/kello.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/InstructionRegister.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/Control.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/ALU.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.v" into library work
+Analyzing Verilog file "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.v" Line 102: Size mismatch in connection of port <bus>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC.v" Line 147: Size mismatch in connection of port <bus>. Formal port size is 8-bit while actual signal size is 2-bit.
+Completed static elaboration
+Fuse Memory Usage: 83636 KB
+Fuse CPU Usage: 520 ms
+Compiling module IBUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKDV_DIVIDE=16.0,CLKFX_D...
+Compiling module BUFG
+Compiling module BUFGMUX(CLK_SEL_TYPE="ASYNC")
+Compiling module Clock
+Compiling module Control
+Compiling module Register
+Compiling module ALU
+Compiling module RAM
+Compiling module Register(WIDTH=4)
+Compiling module InstructionRegister
+Compiling module ProgramCounter
+Compiling module SevenSegmentDisplayDriver
+Compiling module Register(WIDTH=2)
+Compiling module MANIAC
+Compiling module MANIAC_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable /mnt/c/Users/marco.TIAMAT/Xilinx/eater/eight_bit/MANIAC_tb_isim_beh.exe
+Fuse Memory Usage: 1696596 KB
+Fuse CPU Usage: 700 ms
+GCC CPU Usage: 240 ms

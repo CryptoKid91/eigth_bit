@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+RAM instance_name (
+    .bus(bus), 
+    .addr(addr), 
+    .enable(enable), 
+    .write(write), 
+    .clk(clk)
+    );
+
+

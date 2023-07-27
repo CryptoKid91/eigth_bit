@@ -1,0 +1,24 @@
+[Inputs]
+clk
+=instruction[7:0]=
+[Outputs]
+hlt
+enableA
+loadA
+loadB
+enableALU
+sub
+enableRAM
+writeRAM
+enableAddr
+loadAddr
+jmp
+ce
+co
+loadDR
+enableIR
+loadIR
+[BiDir]
+[ATTRIBUTES]
+VeriModel Control
+

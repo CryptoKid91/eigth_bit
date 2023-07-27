@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+ProgramCounter instance_name (
+    .bus(bus), 
+    .clk(clk), 
+    .jmp(jmp), 
+    .ce(ce), 
+    .co(co)
+    );
+
+

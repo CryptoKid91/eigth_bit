@@ -1,0 +1,66 @@
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MANIAC.ngc ...
+WARNING:NetListWriters:298 - No output is written to MANIAC.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MANIAC.edif ...
+ngc2edif: Total memory usage is 91708 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MANIAC.ngc ...
+WARNING:NetListWriters:298 - No output is written to MANIAC.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MANIAC.edif ...
+ngc2edif: Total memory usage is 91704 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MANIAC.ngc ...
+WARNING:NetListWriters:298 - No output is written to MANIAC.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   gpu/Madd_GND_53_o_GND_53_o_add_34_OUT_cy[5 : 0] on block MANIAC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gpu/GND_53_o_GND_53_o_mux_32_OUT[5 : 0]
+   on block MANIAC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gpu/GND_53_o_GND_53_o_mux_18_OUT[5 : 0]
+   on block MANIAC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gpu/value[3 : 0] on block MANIAC is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file MANIAC.edif ...
+ngc2edif: Total memory usage is 92456 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MANIAC.ngc ...
+WARNING:NetListWriters:298 - No output is written to MANIAC.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   gpu/Madd_GND_53_o_GND_53_o_add_34_OUT_cy[5 : 0] on block MANIAC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gpu/GND_53_o_GND_53_o_mux_32_OUT[5 : 0]
+   on block MANIAC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gpu/GND_53_o_GND_53_o_mux_18_OUT[5 : 0]
+   on block MANIAC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gpu/value[3 : 0] on block MANIAC is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file MANIAC.edif ...
+ngc2edif: Total memory usage is 92460 kilobytes
+

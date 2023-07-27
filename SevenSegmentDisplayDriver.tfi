@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+SevenSegmentDisplayDriver instance_name (
+    .clk(clk), 
+    .hex(hex), 
+    .bus(bus), 
+    .segment(segment), 
+    .digit(digit)
+    );
+
+

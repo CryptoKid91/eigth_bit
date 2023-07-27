@@ -1,0 +1,11 @@
+[Inputs]
+i_Clock
+i_Start
+=i_Binary[3:0]=
+[Outputs]
+o_DV
+=o_BCD[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Binary_to_BCD
+

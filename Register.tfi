@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Register instance_name (
+    .bus(bus), 
+    .register(register), 
+    .enable(enable), 
+    .load(load), 
+    .clk(clk)
+    );
+
+

@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Kello instance_name (
+    .CLK_IN1(CLK_IN1), 
+    .CLK_OUT1(CLK_OUT1), 
+    .hlt(hlt), 
+    .advance_i(advance_i)
+    );
+
+

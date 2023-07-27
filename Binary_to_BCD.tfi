@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Binary_to_BCD instance_name (
+    .i_Clock(i_Clock), 
+    .i_Binary(i_Binary), 
+    .i_Start(i_Start), 
+    .o_BCD(o_BCD), 
+    .o_DV(o_DV)
+    );
+
+

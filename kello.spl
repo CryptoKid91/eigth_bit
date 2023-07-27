@@ -1,0 +1,10 @@
+[Inputs]
+CLK_IN1
+hlt
+[Outputs]
+CLK_OUT1
+CLK_OUT1_CONT
+[BiDir]
+[ATTRIBUTES]
+VeriModel kello
+
